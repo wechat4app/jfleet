@@ -12,7 +12,7 @@ jobs:
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
-      - image: circleci/mysql:8.0.3
+      - image: circleci/mysql:5.7.21
         environment:
             - MYSQL_USER=test
             - MYSQL_PASSWORD=test
